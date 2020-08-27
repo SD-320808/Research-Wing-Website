@@ -56,7 +56,7 @@ export default function Opjems() {
                     className="justify-content-center"
                     tabs
                     role="tablist"
-                    // data-background-color="blue"
+                  // data-background-color="blue"
                   >
                     <NavItem>
                       <NavLink
@@ -4313,7 +4313,7 @@ export default function Opjems() {
                           setBlog("1");
                         }}
                       >
-                        BY AKANSH
+                        AKANSH AGARWAL
                       </NavLink>
                     </NavItem>
                     <NavItem>
@@ -4326,7 +4326,7 @@ export default function Opjems() {
                         }}
                       >
                         {/* <i className="now-ui-icons location_world"></i> */}
-                        BY VIPUL
+                        VIPUL BAJAJ
                       </NavLink>
                     </NavItem>
                     {/* <NavItem>
@@ -5407,7 +5407,7 @@ export default function Opjems() {
                               whiteSpace: "pre-wrap",
                             }}
                           >
-                            The Scholarships Saga by Akansh Agarwal
+                            The Scholarships Saga by Vipul Bajaj
                           </span>
                         </h1>
                         <p>
