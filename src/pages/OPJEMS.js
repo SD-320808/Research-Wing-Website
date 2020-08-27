@@ -1,5 +1,5 @@
 import React from "react";
-
+import MetaTags from 'react-meta-tags';
 // reactstrap components
 import {
   Button,
@@ -38,6 +38,12 @@ export default function Opjems() {
     <>
       {/* <ExamplesNavbar /> */}
       <div className="wrapper">
+        <MetaTags>
+          <title>OPJEMS 2020</title>
+          <meta name="description" content="Scholarship for bright minds" />
+          <meta property="og:title" content="OPJEMS 2020" />
+          <meta property="og:image" content="https://career.webindia123.com/career/options/images/opjems.jpg" />
+        </MetaTags>
         <ProfilePageHeader title={"OPJEMS 2020"} />
         <div className="section">
           <Container>
