@@ -53,12 +53,7 @@ function HomeNavbar() {
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="dark">
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand target="_blank" id="navbar-brand">
-              Academics and Career Council
-            </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Resources
-            </UncontrolledTooltip>
+
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
@@ -133,19 +128,30 @@ function HomeNavbar() {
                   Cooming soon!
                 </UncontrolledTooltip>
               </NavItem> */}
-              {/* <NavItem>
-                <NavLink
-                  href="https://twitter.com/CreativeTim?ref=creativetim"
-                  target="_blank"
-                  id="twitter-tooltip"
-                >
-                  <i className="fab fa-twitter"></i>
-                  <p className="d-lg-none d-xl-none">Twitter</p>
-                </NavLink>
+                 <NavbarBrand target="_blank" id="researchs-brand">
+                   <Link to="/home">
+                HOME
+                </Link>
+            </NavbarBrand>
+              <NavbarBrand target="_blank" id="research-brand" href="https://www.iitk.ac.in/dord/">
+                RESEARCH AT IITK
+            
+              
+            </NavbarBrand>
+              <NavbarBrand target="_blank" id="programme-brand">
+                <Link to="/programmes">
+                PROGRAMMES AND SCHOLARSHIPS
+                </Link>
+            
+            </NavbarBrand>
+              <NavItem>
+                <NavbarBrand target="_blank" id="twitter-tooltip" href="https://anciitk.in/src/">
+                  SRC
+            </NavbarBrand>
                 <UncontrolledTooltip target="#twitter-tooltip">
-                  Follow us on Twitter
+                  Student Research Convention
                 </UncontrolledTooltip>
-              </NavItem> */}
+              </NavItem>
               <NavItem>
                 <NavLink
                   href="https://www.facebook.com/ANCIITK/"

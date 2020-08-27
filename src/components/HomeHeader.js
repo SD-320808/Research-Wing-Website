@@ -40,9 +40,9 @@ function HomeHeader() {
               src={require("assets/img/anclogo.png")}
             ></img>
             <b>
-              <h1 className="title">Academics and Career Council</h1>
+              <h1 className="title">Research Wing</h1>
             </b>
-            <h3>Resources</h3>
+            <h3>Academics and Career Council , IIT Kanpur</h3>
           </div>
           {/* <h6 className="category category-absolute">
             Designed by{" "}
