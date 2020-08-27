@@ -183,9 +183,9 @@ function Home() {
                     <img
                       alt="..."
                       className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/Neelesh.jpeg")}
+                      src={require("assets/img/gavish.jpg")}
                     ></img>
-                    <h4 className="title">Neelesh Kumar Vig</h4>
+                    <h4 className="title">Gavish Saraf</h4>
                     <p className="category text-info">Manager</p>
 
                   </div>

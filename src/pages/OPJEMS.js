@@ -7742,8 +7742,12 @@ export default function Opjems() {
                         basis eligiblie criteria for OPJEMS 2020.
                       </span>
                     </p>
+                    <div>
+                      <h3 style={{ color: 'black', fontWeight: 'bold', textAlign: 'center' }}> For Queries regarding OPJEMS</h3>
+                      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScel1ZUATdGafCWLlSWDjdO__xgK9K3Bx5cqtPhOI9cllaVdg/viewform?embedded=true" width="100%" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </div>
                   </div>
-                  ;
+
                 </TabPane>
               </TabContent>
             </Row>
