@@ -81,7 +81,7 @@ export default function Opjems() {
                     className="justify-content-center"
                     tabs
                     role="tablist"
-                    // data-background-color="blue"
+                  // data-background-color="blue"
                   >
                     <NavItem>
                       <NavLink
@@ -5309,7 +5309,7 @@ export default function Opjems() {
                           whiteSpace: "pre-wrap",
                         }}
                       >
-                        The Scholarships Saga by Akansh Agarwal
+                        The Scholarships Saga by Vipul Bajaj
                       </span>
                     </h1>
                     <p>
