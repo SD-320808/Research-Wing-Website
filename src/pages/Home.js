@@ -285,7 +285,61 @@ function Home() {
 
                     </div>
                   </Col>
+                  <Col md="3">
+                    <div className="team-player">
+                      <img
+                        alt="..."
+                        className="rounded-circle img-fluid img-raised"
+                        src={require("assets/img/sanyukta.jpg")}
+                      ></img>
+                      <h4 className="title">Sanyukta Agarwal</h4>
+                      <p className="category text-info">Secretary</p>
 
+
+                    </div>
+                  </Col>
+                  <Col md="3">
+                    <div className="team-player">
+                      <img
+                        alt="..."
+                        className="rounded-circle img-fluid img-raised"
+                        src={require("assets/img/Ananya2.jpeg")}
+                      ></img>
+                      <h4 className="title">Ananya Singh</h4>
+                      <p className="category text-info">Secretary</p>
+
+
+                    </div>
+                  </Col>
+
+                </Row>
+                <Row>
+                  <Col md="3">
+                    <div className="team-player">
+                      <img
+                        alt="..."
+                        className="rounded-circle img-fluid img-raised"
+                        src={require("assets/img/Aditi.jpg")}
+                      ></img>
+                      <h4 className="title">Aditi Singh</h4>
+                      <p className="category text-info">Secretary</p>
+
+
+                    </div>
+                  </Col>
+                  <Col md="3">
+                    <div className="team-player">
+                      <img
+                        alt="..."
+                        className="rounded-circle img-fluid img-raised"
+                        src={require("assets/img/Mantaas.jpg")}
+                      ></img>
+                      <h4 className="title">Mantaas Singh</h4>
+                      <p className="category text-info">Secretary</p>
+
+
+                    </div>
+                  </Col>
                 </Row>
               </Row>
             </div>
