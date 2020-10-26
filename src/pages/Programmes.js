@@ -31,6 +31,11 @@ const Data = [
     name: "OPJEMS Scholarship",
     link: "/opjems",
   },
+  {
+    name: "DAAD WISE Scholarship",
+    link: "/daad",
+  },
+
 ];
 
 export default function Programmes() {

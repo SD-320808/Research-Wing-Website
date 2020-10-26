@@ -11,6 +11,7 @@ import { Route, Switch, Redirect, HashRouter } from "react-router-dom";
 import NavbarHome from "./components/HomeNavBar";
 import Programmes from "./pages/Programmes";
 import Opjems from "./pages/OPJEMS";
+import Daad from "./pages/DAAD";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path="/opjems">
             <Opjems />
+          </Route>
+          <Route path="/daad">
+            <Daad />
           </Route>
           <Redirect to="/home"></Redirect>
 
