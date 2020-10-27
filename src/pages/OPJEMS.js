@@ -44,7 +44,7 @@ export default function Opjems() {
           <meta property="og:title" content="OPJEMS 2020" />
           <meta property="og:image" content="https://career.webindia123.com/career/options/images/opjems.jpg" />
         </MetaTags>
-        <ProfilePageHeader title={"OPJEMS 2020"} />
+        <ProfilePageHeader title={"OPJEMS 2020"} img={"OPJEMS.png"} />
         <div className="section">
           <Container>
             <div className="button-container"></div>

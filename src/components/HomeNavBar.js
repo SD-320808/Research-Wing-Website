@@ -53,16 +53,9 @@ function HomeNavbar() {
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="dark">
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand
-              href="https://demos.creative-tim.com/now-ui-kit-react/#/index?ref=nukr-index-navbar"
-              target="_blank"
-              id="navbar-brand"
-            >
-              RESEARCH WING , IITK
+            <NavbarBrand target="_blank" id="navbar-brand">
+              RESEARCH WING , IIT KANPUR
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Designed by Invision. Coded by Creative Tim
-            </UncontrolledTooltip>
 
             <button
               className="navbar-toggler navbar-toggler"
@@ -139,32 +132,25 @@ function HomeNavbar() {
                 </UncontrolledTooltip>
               </NavItem> */}
               <NavbarBrand target="_blank" id="researchs-brand">
-                <Link to="/home">
-                 
-                    HOME
-              
-                </Link>
+                <Link to="/home">HOME</Link>
               </NavbarBrand>
-              <NavbarBrand target="_blank" id="research-brand" href="https://www.iitk.ac.in/dord/">
-               
-                  RESEARCH AT IITK
-              
-
-
+              <NavbarBrand
+                target="_blank"
+                id="research-brand"
+                href="https://www.iitk.ac.in/dord/"
+              >
+                RESEARCH AT IITK
               </NavbarBrand>
               <NavbarBrand target="_blank" id="programme-brand">
-                <Link to="/programmes">
-            
-                    PROGRAMMES AND SCHOLARSHIPS
-                
-                </Link>
-
+                <Link to="/programmes">PROGRAMMES AND SCHOLARSHIPS</Link>
               </NavbarBrand>
               <NavItem>
-                <NavbarBrand target="_blank" id="twitter-tooltip" href="https://anciitk.in/src/">
-           
-                    SRC
-                  
+                <NavbarBrand
+                  target="_blank"
+                  id="twitter-tooltip"
+                  href="https://anciitk.in/src/"
+                >
+                  SRC
                 </NavbarBrand>
                 <UncontrolledTooltip target="#twitter-tooltip">
                   Student Research Convention
