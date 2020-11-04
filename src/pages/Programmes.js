@@ -35,6 +35,10 @@ const Data = [
     name: "DAAD WISE Scholarship",
     link: "/daad",
   },
+  {
+    name: "EPFL Research Internship",
+    link: "/epfl",
+  }
 
 ];
 

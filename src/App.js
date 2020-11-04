@@ -12,6 +12,7 @@ import NavbarHome from "./components/HomeNavBar";
 import Programmes from "./pages/Programmes";
 import Opjems from "./pages/OPJEMS";
 import Daad from "./pages/DAAD";
+import Epfl from "./pages/EPFL";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route path="/daad">
             <Daad />
+          </Route>
+          <Route path="/epfl">
+            <Epfl />
           </Route>
           <Redirect to="/home"></Redirect>
 
